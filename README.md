@@ -41,5 +41,13 @@ Agora para clonar o repositório cole no terminal:
 
 Na pasta do repositório clonado apenas digite `yarn` e ele irá fazer a instalação de todas as dependências 
 
+
 #Instalando o backend: 
+1- Npm install na pasta do backend
+2- Instale o postgres, 
+3- Comandos do postGres para serem utilizados no terminal: 
+        3.1 psql -U postgres
+        3.2- \l para listar os DBs
+        3.3- \c quebra_meu_galho para se conectar ao DB do app
+        3.4- \dt para listar as tabelas
 
