@@ -1,7 +1,7 @@
 import React from "react";
 import { Navigate, Route, Routes, useLocation } from "react-router-dom";
-import { Home, Sobre, Cadastro } from "../pages";
-import { HOME, SOBRE, CADASTRO } from "./routes";
+import { Home, Sobre, Cadastro, BuscarServico } from "../pages";
+import { HOME, SOBRE, CADASTRO, BUSCARSERVICO } from "./routes";
 
 export function AppRoutes () {
   const location = useLocation();
@@ -14,6 +14,7 @@ export function AppRoutes () {
       <Route path={HOME} element={<Home />} />
       <Route path={SOBRE} element={<Sobre />} />
       <Route path={CADASTRO} element={<Cadastro />} />
+      <Route path={BUSCARSERVICO} element={<BuscarServico />} />
     </Routes>
   );
 };
