@@ -41,3 +41,5 @@ Agora para clonar o repositório cole no terminal:
 
 Na pasta do repositório clonado apenas digite `yarn` e ele irá fazer a instalação de todas as dependências 
 
+#Instalando o backend: 
+
