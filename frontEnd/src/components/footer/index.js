@@ -15,7 +15,7 @@ export function Footer () {
       </ul>
       <ul style={{listStyleType:"none", width:"30%" }}>
         <h2>Serviços</h2>
-        <Link to="/cadastro"><li style={{color:"black", textDecoration:"inherit"}}>Buscar Serviço</li></Link>
+        <Link to="/buscarservico"><li style={{color:"black", textDecoration:"inherit"}}>Buscar Serviço</li></Link>
         <Link to="/cadastro"><li style={{color:"black", textDecoration:"inherit"}}>Anunciar Serviço</li></Link>
       </ul>
       <ul style={{listStyleType:"none", width:"30%" }}>
